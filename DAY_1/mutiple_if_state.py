@@ -1,4 +1,5 @@
 color = input("What's your favorite color? \n")
+
 if color == 'purple':
     print("excellent choice!")
 elif color == 'teal':
