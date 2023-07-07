@@ -1,3 +1,4 @@
 # I BEGIN MY JOUNERY AGAIN IN PYTHON FULL TO UNDERSTAND FULL CONCERPT
 
-[DAY1](./DAY 1) : Writing basic python that perform basic stuff.
+[DAY1](./DAY1) : Writing basic python that perform basic stuff.
+
