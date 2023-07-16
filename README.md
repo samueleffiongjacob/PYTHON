@@ -3,6 +3,8 @@
 [DAY1](./DAY_1) : Writing basic python that perform basic stuff.
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
 [DAY2](./DAY_2/) : STARTING UP LOOPS'
+[GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
+[DAY3](./DAY3/) : LIST
 
 ## CODE FORMATTER
 pycodestyle --first optparse.py // check your python code before push
