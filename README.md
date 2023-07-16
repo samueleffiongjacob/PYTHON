@@ -1,6 +1,6 @@
 # Python training for everyone
 
-[0x00_conditionalsANdUseriput](./0x00_conditionalsANdUseriput): Writing basic Python that performs basic stuff.
+[0x00_conditionals ANd User iput](./0x00_conditionalsANdUseriput): Writing basic Python that performs basic stuff.
 
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
 
@@ -8,7 +8,7 @@
 
 [GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
 
-[0x02_List-MethodANDSlice](./0x02_List-MethodANDSlice/) : LIST
+[0x02_List-Method AND Slice](./0x02_List-MethodANDSlice/) : LIST
 
 ## CODE FORMATTER
 pycodestyle --first optparse.py // check your python code before push
