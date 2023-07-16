@@ -11,38 +11,51 @@
 [0x02_List-Method AND Slice](./0x02_List-MethodANDSlice/) : LIST
 
 ## CODE FORMATTER
-pycodestyle --first optparse.py // check your python code before push
+autopep8 2.0.2 : A tool that automatically formats Python code to conform to the PEP 8 style guide ![SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
+
+```bash
+# Install  Autopep8
+$ pip install --upgrade autopep8
+
+# It checks when pycodestyle did not see
+$ autopep8 --in-place pythonfile 
+```
+pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8. ![SEE Documentation](https://pypi.org/project/pycodestyle/)
+
+```bash
+# To install PYCODESTYLE
+$ pip install --upgrade pycodestyle
+
+# check your Python code before pushing
+$ pycodestyle  python file
+
+# show the source code for each error and even the relevant text from PEP 8
+$ pycodestyle --show-source --show-pep8  python file
+
+# You can display how often each error was found:
+$ pycodestyle --statistics -qq Python-2.5/Lib 
+```
+
 
 ```bash
 
-pip install --upgrade pycodestyle
-```
+# AUTO FORMATE with VS code
 
-pycodestyle --show-source --show-pep8 testsuite/E40.py // show the source code for each error, and even the relevant text from PEP 8
+# whenever you want to work with python create vs code folder example below
+$ .vscode
 
-pycodestyle --statistics -qq Python-2.5/Lib // you can display how often each error was found:
+# Inside the folder create a setting.json file example below
+$ settings.json
 
-////// AUTO FORMATE
+# Paste the below code inside your setting.json file
 
-whenever u want to work with python
-create .vscode // folder
-create settings.json // file
-
-//Paste below code
-
-{
+    {
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python. formatting.provider": "none"
 }
 
-// automatical style code Modules
-to install
-
-```bash
-
-pip install --upgrade autopep8
 ```
 
-autopep8 --in-place filename // it checks when pycodestyle did not see
+
