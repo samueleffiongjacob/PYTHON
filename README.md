@@ -14,13 +14,13 @@
 
 ## CODE FORMATTER
 
-autopep8 2.0.2 : A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
+autopep8 2.0.2: A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
 
 ```bash
 # Install  Autopep8
 $ pip install --upgrade autopep8
 
-# It checks when pycodestyle did not see
+# It checks when pycodestyle does not see
 $ autopep8 --in-place pythonfile 
 ```
 
@@ -39,12 +39,12 @@ $ pycodestyle --show-source --show-pep8  python file
 # You can display how often each error was found:
 $ pycodestyle --statistics -qq Python-2.5/Lib 
 ```
-
+VS code  [see here](https://code.visualstudio.com/)
 ```bash
 
 # AUTO FORMATE with VS code
 
-# whenever you want to work with python create vs code folder example below
+# Whenever you want to work with Python create vs code folder example below
 $ .vscode
 
 # Inside the folder create a setting.json file example below
