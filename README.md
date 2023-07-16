@@ -11,7 +11,7 @@
 [0x02_List-Method AND Slice](./0x02_List-MethodANDSlice/) : LIST
 
 ## CODE FORMATTER
-autopep8 2.0.2 : A tool that automatically formats Python code to conform to the PEP 8 style guide ![SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
+autopep8 2.0.2 : A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
 
 ```bash
 # Install  Autopep8
@@ -20,7 +20,7 @@ $ pip install --upgrade autopep8
 # It checks when pycodestyle did not see
 $ autopep8 --in-place pythonfile 
 ```
-pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8. ![SEE Documentation](https://pypi.org/project/pycodestyle/)
+pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8. [SEE Documentation](https://pypi.org/project/pycodestyle/)
 
 ```bash
 # To install PYCODESTYLE
