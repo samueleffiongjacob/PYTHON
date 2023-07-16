@@ -1,5 +1,7 @@
 # Python training for everyone
 
+![SAMUEL EFFIONG PYTHON IMAGE 2](./image/Samuel%20Effiong%20python%20image2.webp)
+
 [0x00_conditionals ANd User iput](./0x00_conditionalsANdUseriput): Writing basic Python that performs basic stuff.
 
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
@@ -11,6 +13,7 @@
 [0x02_List-Method AND Slice](./0x02_List-MethodANDSlice/) : LIST
 
 ## CODE FORMATTER
+
 autopep8 2.0.2 : A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
 
 ```bash
@@ -20,6 +23,7 @@ $ pip install --upgrade autopep8
 # It checks when pycodestyle did not see
 $ autopep8 --in-place pythonfile 
 ```
+
 pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8. [SEE Documentation](https://pypi.org/project/pycodestyle/)
 
 ```bash
@@ -35,7 +39,6 @@ $ pycodestyle --show-source --show-pep8  python file
 # You can display how often each error was found:
 $ pycodestyle --statistics -qq Python-2.5/Lib 
 ```
-
 
 ```bash
 
@@ -58,4 +61,4 @@ $ settings.json
 
 ```
 
-
+![samuel effiong python image](./image/samuel%20effiong%20python%20image.png)
