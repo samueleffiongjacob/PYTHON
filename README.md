@@ -1,6 +1,6 @@
-# I BEGIN MY JOUNERY AGAIN IN PYTHON FULL TO UNDERSTAND FULL CONCERPT
+# Python training for everyone
 
-[DAY1](./DAY_1) : Writing basic python that perform basic stuff.
+[DAY1](./DAY_1): Writing basic Python that performs basic stuff.
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
 [DAY2](./DAY_2/) : STARTING UP LOOPS'
 [GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
@@ -20,20 +20,20 @@ pycodestyle --statistics -qq Python-2.5/Lib // you can display how often each er
 
 ////// AUTO FORMATE
 
-when ever u want to work with python
+whenever u want to work with python
 create .vscode // folder
 create settings.json // file
 
-// paste below code
+//Paste below code
 
 {
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none"
+    "python. formatting.provider": "none"
 }
 
-// autamaatical style code Modules
+// automatical style code Modules
 to install
 
 ```bash
@@ -41,4 +41,4 @@ to install
 pip install --upgrade autopep8
 ```
 
-autopep8 --in-place filename // it checks whe pycodestyle did not see
+autopep8 --in-place filename // it checks when pycodestyle did not see
