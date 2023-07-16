@@ -1,14 +1,14 @@
 # Python training for everyone
 
-[DAY1](./DAY_1): Writing basic Python that performs basic stuff.
+[0x00_conditionalsANdUseriput](./0x00_conditionalsANdUseriput): Writing basic Python that performs basic stuff.
 
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
 
-[DAY2](./DAY_2/) : STARTING UP LOOPS'
+[0x01_loops](./0x01_loops/): STARTING UP LOOPS to expert'
 
 [GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
 
-[DAY3](./DAY3/) : LIST
+[0x02_List-MethodANDSlice](./0x02_List-MethodANDSlice/) : LIST
 
 ## CODE FORMATTER
 pycodestyle --first optparse.py // check your python code before push
