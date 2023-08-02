@@ -108,7 +108,8 @@ $ nums[0:4:2]  # (1,3)
 
 ```bash
 # Set cannot have duplicate
-$ s = set({1,2,3,4,5,5,5})  {1,2,3,4,5}
+$ s = set({1,2,3,4,5,5,5})  
+# result of the above {1,2,3,4,5}
 
 # Creating a new set 
 $ s= set({1,4,5})
@@ -176,3 +177,29 @@ $ tt2 = man1.discard(78)
    intersection
    symmetric difference
    union
+
+```bash
+# variable
+$ city = {"nigerAA", "abujSSa", "DDcross", "nSSiger" "aDDbuja"}
+$ cityq = {"nigerAA", "abujSSa", "DDcross", "nSSiger","aDDbuja", "camerron", "port-harcout", "chelse"}
+
+# union OF set
+$ union = city | cityq
+$ print(union)
+# intersect of set
+$ intersect = city | cityq
+$ print(intersect)
+```
+
+## Set COMPREHENSION : this acutually similar to list, dictonary and tuple but there is a slight difference see below
+
+```bash
+# example
+$ char = {x ** 2 for x in range(10)} # {0, 1, 64, 4, 36, 9, 16, 49, 81, 25}
+
+# using string 
+$ string = "hello"
+$ string1 = "sequoia" # largest tree in the world
+$ verify = len({char for char in string if char in "aeiou"})
+$ verify1 = len({char for char in string1 if char in "aeiou"})
+```
