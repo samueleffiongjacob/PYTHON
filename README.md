@@ -8,9 +8,15 @@
 
 [0x01_loops](./0x01_loops/): STARTING UP LOOPS to expert'
 
-[GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
+[0x02_list and it methods](./0x02_List-MethodANDSlice/) everything about list
 
-[0x02_List-Method AND Slice](./0x02_List-MethodANDSlice/) : LIST
+[0x03_ dictionary](./0x03_dictionary/) everything about dictionary
+
+[0x04_ Tuples and set](./0x04_Tuples_Sets/) : everything about tuple and set
+
+[0x05 function](./0x05_FUNCTIONS/) : EVERY THING about function
+
+[GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
 
 ## CODE FORMATTER
 
@@ -39,7 +45,9 @@ $ pycodestyle --show-source --show-pep8  python file
 # You can display how often each error was found:
 $ pycodestyle --statistics -qq Python-2.5/Lib 
 ```
+
 VS code  [see here](https://code.visualstudio.com/)
+
 ```bash
 
 # AUTO FORMATE with VS code
