@@ -1,4 +1,5 @@
 # A regular named function
+import tkinter as tk
 def square(num): return num * num
 
 
@@ -20,16 +21,16 @@ print(square2.__name__)
 print(add.__name__)
 
 
-# example 2 on lambda 
-import tkinter as tk
-root = tk.tk() # creaating environment for running
-frame = tk.Frame(root) # creating frame
-frame.pack() ## creating a block for the design
+# example 2 on lambda
+root = tk.tk()  # creaating environment for running
+frame = tk.Frame(root)  # creating frame
+frame.pack()  # creating a block for the design
 
-# Don't need this function if we use a lambda 
+# Don't need this function if we use a lambda
 # def say_hi():
 #     print("HELLO!")
 
-button = tk.Button(frame, text= "CLICK ME", fg="green", command= lambda : print("SAMUEL IS GOOD "))
+button = tk.Button(frame, text="CLICK ME", fg="green",
+                   command=lambda: print("SAMUEL IS GOOD "))
 button.pack(side=tk.RIGHT)
 root.mainloop()
