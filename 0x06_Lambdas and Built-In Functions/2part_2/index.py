@@ -36,8 +36,8 @@ for song in songs:
 print(max)
 
 # REVERSED
-nuns = [1,2,3,4]
-num1= list(reversed(nuns))
+nuns = [1, 2, 3, 4]
+num1 = list(reversed(nuns))
 print(num1)
 
 # for string
