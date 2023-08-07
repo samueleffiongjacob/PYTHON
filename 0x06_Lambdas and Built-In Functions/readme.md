@@ -60,34 +60,56 @@ $ print(evens) # [2,4]
 >> given  this list of names
 >> `name = ["SAMUEL", "COLT", "RUSTY"]`
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
->>
->> ```list(map(lambda name: f"your instructor is {name}",
->>      filter(lambda value: len(value) < 5, name)))```
->>> What about List Comprehension?
->> given  this list of names
->> `name = ["SAMUEL", "COLT", "RUSTY"]`
+>>>
+```bash
+# see example
+$ list(map(lambda name: f"your instructor is {name},
+$       filter(lambda value: len(value) < 5, name)))
+```
+
+> What about List Comprehension?
+>> given  this list of names \n
+    ```name = ["SAMUEL", "COLT", "RUSTY"]``` \n
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
->> [f"your instructor is {name}" for name in names if lens(name) < 5]
+>>>
+```bash
+[f"your instructor is {name}" for name in names if lens(name) < 5]
+```
 
 ## All
->>
+
 >> Return True if all elements of the iterable are truthy (or if the iterable is empty)
->> ```all([0,1,2,3]) #false```
->> ```all([char for char in 'eio' if char in 'aeiou'])```
->> ```all([num for num in [4,2,10,6,8] if num % 2 == 0]) # false```
+
+```bash
+all([0,1,2,3]) #false
+all([char for char in 'eio' if char in 'aeiou'])```
+all([num for num in [4,2,10,6,8] if num % 2 == 0]) # false
+```
 
 ## ANy
->>
+
 >> Return True if any elements of the iterable are truthy. if the iterable is empty, return False
->> ```any([0,1,2,3]) #false```
->> ```any([char for char in 'eio' if char in 'aeiou'])```
->> ```any([num for num in [4,2,10,6,8] if num % 2 == 0]) # false```
->> ```any([val for val in [1,2,3] if val > 2]) # True```
->> ```any([val for val in [1,2,3] if val > 5]) # Fasle```
+
+``` bash
+# example
+$ any([0,1,2,3]) #false
+$ any([char for char in 'eio' if char in 'aeiou'])
+$ any([num for num in [4,2,10,6,8] if num % 2 == 0]) # false
+$ any([val for val in [1,2,3] if val > 2]) # True
+$ any([val for val in [1,2,3] if val > 5]) # Fasle
+```
 
 ## genarator expression
->>
+
 >> Basically use a genarator expression, if all your're doing is iterating once. if you want to store and use the generated results, then you're probably better of list comprehension
 
 ## Sorted
->> 
+
+>> Returns a new sorted list from the items in iterabls
+
+```bash
+# Sorted (works on anything that is iterable)
+$ more_number = [6,1,8,2]
+$ sorted(more_number) # [1,2,6,8]
+$ print(more_number)  # [6,1,8,2]
+```
