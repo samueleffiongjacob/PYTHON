@@ -88,3 +88,6 @@ $ print(evens) # [2,4]
 ## genarator expression
 >>
 >> Basically use a genarator expression, if all your're doing is iterating once. if you want to store and use the generated results, then you're probably better of list comprehension
+
+## Sorted
+>> 
