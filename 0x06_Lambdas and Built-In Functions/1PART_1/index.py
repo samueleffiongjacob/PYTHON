@@ -1,5 +1,5 @@
 # A regular named function
-# import tkinter as tk
+import tkinter as tk
 import sys
 def square(num): return num * num
 
@@ -23,18 +23,18 @@ print(add.__name__)
 
 
 # example 2 on lambda
-# root = tk.Tk()  # creaating environment for running
-# frame = tk.Frame(root)  # creating frame
-# frame.pack()  # creating a block for the design
+root = tk.Tk()  # creaating environment for running
+frame = tk.Frame(root)  # creating frame
+frame.pack()  # creating a block for the design
 
-# # Don't need this function if we use a lambda
-# # def say_hi():
-# #     print("HELLO!")
+# Don't need this function if we use a lambda
+# def say_hi():
+#     print("HELLO!")
 
-# button = tk.Button(frame, text="CLICK ME", fg="green",
-#                    command=lambda: print("SAMUEL IS GOOD "))
-# button.pack(side=tk.RIGHT)
-# root.mainloop()
+button = tk.Button(frame, text="CLICK ME", fg="green",
+                   command=lambda: print("SAMUEL IS GOOD "))
+button.pack(side=tk.RIGHT)
+root.mainloop()
 
 # maps
 numbs = [3, 5, 7, 9, 11]
@@ -149,3 +149,35 @@ print(f"List Comprehension: {list_comp} bytes")
 print(f"Generator Expression: {gen_exp} bytes")
 
 print(sys.getsizeof.__doc__)
+
+more_number = [6, 1, 8, 2]
+more_sort = sorted(more_number)  # [1,2,6,8]
+print(more_number, more_sort)  # [6,1,8,2]
+
+# advance sorted
+users = [
+	{"username": "samuel", "tweets": ["I love cake", "I love pie", "hello world!"]},
+	{"username": "katie", "tweets": ["I love my cat"]},
+	{"username": "jeff", "tweets": [], "color": "purple"},
+	{"username": "bob123", "tweets": [], "num": 10, "color": "teal"},
+	{"username": "doggo_luvr", "tweets": ["dogs are the best", "I'm hungry"]},
+	{"username": "guitar_gal", "tweets": []}
+]
+
+# To sort users by their username
+sorted(users,key=lambda user: user['username'])
+
+# Finding our most active users...
+# Sort users by number of tweets, descending
+sorted(users,key=lambda user: len(user["tweets"]), reverse=True)
+
+# ANOTHER EXAMPLE DATA SET==================================
+songs = [
+	{"title": "happy birthday", "playcount": 1},
+	{"title": "Survive", "playcount": 6},
+	{"title": "YMCA", "playcount": 99},
+	{"title": "Toxic", "playcount": 31}
+]
+
+# To sort songs by playcount
+sorted(songs, key=lambda s: s['playcount'])

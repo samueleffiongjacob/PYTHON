@@ -1,4 +1,4 @@
-# Lambdas and Built-In Functions
+# Lambdas and Built-In Functions [part 1](/0x06_Lambdas%20and%20Built-In%20Functions/PART%201/)
 
 > LAMBDA : IT IS A FUNCTION USE INSIDE A FUNCTION TO MAKE JOB EASY
 >> lambda is a built in function of it own
@@ -82,7 +82,7 @@ $       filter(lambda value: len(value) < 5, name)))
 
 ```bash
 all([0,1,2,3]) #false
-all([char for char in 'eio' if char in 'aeiou'])```
+all([char for char in 'eio' if char in 'aeiou'])
 all([num for num in [4,2,10,6,8] if num % 2 == 0]) # false
 ```
 
@@ -112,4 +112,18 @@ $ any([val for val in [1,2,3] if val > 5]) # Fasle
 $ more_number = [6,1,8,2]
 $ sorted(more_number) # [1,2,6,8]
 $ print(more_number)  # [6,1,8,2]
+```
+
+## Lambdas and Built-In Functions [part 2](/0x06_Lambdas%20and%20Built-In%20Functions/2part_2/)
+
+> Max : return the longest or largest item in an iterable or the largest of two or more arguments  
+```max (3,4,5,100)```  
+> Min : return the least or smallest item in an iterable or the largest of two or more arguments  
+```min(3,4,5,100)```
+> Reversed : Return a reverse *iterator*  
+
+```bash
+# example
+$ nuns = [1,2,3,4]
+$ list(reversed(nuns))
 ```
