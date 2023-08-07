@@ -57,7 +57,7 @@ $ print(evens) # [2,4]
 ```
 
 > COMBING FILTER AND MAP
->> given  this list of names
+>> given  this list of names  
    `name = ["SAMUEL", "COLT", "RUSTY"]`  
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
 >>>
@@ -69,7 +69,7 @@ $       filter(lambda value: len(value) < 5, name)))
 
 > What about List Comprehension?
 >> given  this list of names.  
-   ```name = ["SAMUEL", "COLT", "RUSTY"] \n```  
+   ```name = ["SAMUEL", "COLT", "RUSTY"]```  
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
 >>>
 ```bash
