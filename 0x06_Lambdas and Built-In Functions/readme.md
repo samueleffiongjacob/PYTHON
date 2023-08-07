@@ -1,4 +1,4 @@
-# Lambdas and Built-In Functions [part 1](/0x06_Lambdas%20and%20Built-In%20Functions/PART%201/)
+# Lambdas and Built-In Functions [part 1](/0x06_Lambdas%20and%20Built-In%20Functions/1part_1/)
 
 > LAMBDA : IT IS A FUNCTION USE INSIDE A FUNCTION TO MAKE JOB EASY
 >> lambda is a built in function of it own
