@@ -58,7 +58,7 @@ $ print(evens) # [2,4]
 
 > COMBING FILTER AND MAP
 >> given  this list of names
->> `name = ["SAMUEL", "COLT", "RUSTY"]`
+   `name = ["SAMUEL", "COLT", "RUSTY"]`  
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
 >>>
 ```bash
@@ -68,8 +68,8 @@ $       filter(lambda value: len(value) < 5, name)))
 ```
 
 > What about List Comprehension?
->> given  this list of names \n
-    ```name = ["SAMUEL", "COLT", "RUSTY"]``` \n
+>> given  this list of names.  
+   ```name = ["SAMUEL", "COLT", "RUSTY"] \n```  
 >> Return a new list with the string "YOUR instructor is" + each value in the array, but only if than 5 characters
 >>>
 ```bash
@@ -101,7 +101,7 @@ $ any([val for val in [1,2,3] if val > 5]) # Fasle
 
 ## genarator expression
 
->> Basically use a genarator expression, if all your're doing is iterating once. if you want to store and use the generated results, then you're probably better of list comprehension
+> Basically use a genarator expression, if all your're doing is iterating once. if you want to store and use the generated results, then you're probably better of list comprehension
 
 ## Sorted
 
