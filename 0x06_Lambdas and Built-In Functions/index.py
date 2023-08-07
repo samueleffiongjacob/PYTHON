@@ -22,7 +22,7 @@ print(add.__name__)
 
 
 # example 2 on lambda
-root = tk.tk()  # creaating environment for running
+root = tk.Tk()  # creaating environment for running
 frame = tk.Frame(root)  # creating frame
 frame.pack()  # creating a block for the design
 
