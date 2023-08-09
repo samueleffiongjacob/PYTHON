@@ -129,7 +129,7 @@ $ list(reversed(nuns))
 ```
 
 > Len : Return the length(the number of items) of an object. The argument may be a sequence (such as a string, tuple, list, or range) or a collection (such as a dictionary, set)  
->> ```'hello'.__len__()```
+>> ```'hello'.__len__()```  
 > Abs : Return the absolute value of a number. The argurmrnt may be interger or a floating point number.  
 ```bash
 # abs usage
