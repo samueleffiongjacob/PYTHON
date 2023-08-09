@@ -14,7 +14,11 @@
 
 [0x04_ Tuples and set](./0x04_Tuples_Sets/) : everything about tuple and set
 
-[0x05 function](./0x05_FUNCTIONS/) : EVERY THING about function
+[0x05 function](./0x05_FUNCTIONS/) : EVERY THING about function  
+
+[0x06_Lambdas and Built-In Functions](/0x06_Lambdas%20and%20Built-In%20Functions/) :Lambdas and Built-In Functions all basics
+
+[0x07 Debugging and Error Handling](/0x07_Debugging%20and%20Error%20Handling/) : error handling technic
 
 [GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
 
