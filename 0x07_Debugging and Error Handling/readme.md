@@ -131,4 +131,13 @@
   ```bash
   # example
   $ import pdb; pd.set_trace
+
+  # Common PDB Commands:
+  $   l (list)
+  $   n (next line)
+  $   p (print)
+  $   c (continue - finishes debugging)
+
+  # or u could use 
+  $ breakpoint() # to access it
   ```
