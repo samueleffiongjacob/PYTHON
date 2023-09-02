@@ -1,4 +1,11 @@
 # Raising your error
+""" how to raise error 
+raise __
+types of error:
+    1.TypeError
+    2.ValueError
+    3.NameError
+"""
 def colorize(text, color):
     colors = ("cyan", "yellow", "blue", "green", "magenta")
     if type(text) is not str:

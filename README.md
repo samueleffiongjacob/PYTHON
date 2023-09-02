@@ -8,6 +8,8 @@
 
 [0x01_loops](./0x01_loops/): STARTING UP LOOPS to expert'
 
+[GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
+
 [0x02_list and it methods](./0x02_List-MethodANDSlice/) everything about list
 
 [0x03_ dictionary](./0x03_dictionary/) everything about dictionary
@@ -20,7 +22,7 @@
 
 [0x07 Debugging and Error Handling](/0x07_Debugging%20and%20Error%20Handling/) : error handling technic
 
-[GAME FOR THE CLASS](./GAME_TIME/v2_GUESSING/) : game v2 let see how it works with conditionals, loops
+[0X08 MODULES](/0x08_Modules/) : MOVING FILE AROUNG IN PYTHON
 
 ## CODE FORMATTER
 
@@ -32,6 +34,9 @@ $ pip install --upgrade autopep8
 
 # It checks when pycodestyle does not see
 $ autopep8 --in-place pythonfile 
+
+# it code remove and format some unnesary stuff on
+$ autopep8 --in-place -a -a pythonfile
 ```
 
 pycodestyle is a tool to check your Python code against some of the style conventions in PEP 8. [SEE Documentation](https://pypi.org/project/pycodestyle/)

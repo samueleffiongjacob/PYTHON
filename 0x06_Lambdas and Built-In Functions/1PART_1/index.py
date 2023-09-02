@@ -33,13 +33,17 @@ frame.pack()  # creating a block for the design
 
 button = tk.Button(frame, text="CLICK ME", fg="green",
                    command=lambda: print("SAMUEL IS GOOD "))
-button.pack(side=tk.RIGHT)
 root.mainloop()
 
 # maps
+""" lambda __ : __ , ___"""
+
 numbs = [3, 5, 7, 9, 11]
 # to view it must be use with list or others ways
+"""map(lambda __ : __, __)"""
 double = map(lambda x: x * 2, numbs)
+
+"""list(map(lambda __ : __, __))"""
 double1 = list(map(lambda x: x*2, numbs))  # note it can be use once
 print(double1)
 
@@ -49,7 +53,7 @@ for num in num_mutiple:
     print(num)
 
 people = ["Samuel", "Effiong", "Dana"]
-peeps = map(lambda name: name.upper(), people)  # always conver to a list
+peeps = map(lambda name: name.upper(), people)  # always convert to a list
 peepse = list(peeps)
 print(peepse)
 

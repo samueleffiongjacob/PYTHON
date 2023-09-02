@@ -1,5 +1,6 @@
 """
     @2List Comprehension With Conditional Logic
+    __ for __ in __ conditions
 """
 
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

@@ -1,5 +1,5 @@
 """
-    what is a loop: a loop is form of automating things aor repeating things
+    what is a loop: a loop is form of automating things or repeating things
     what is varible in loop : the name or value you would print out
     what is Litreable in loop : The function or variable the loop goes
     through to produce result for loop

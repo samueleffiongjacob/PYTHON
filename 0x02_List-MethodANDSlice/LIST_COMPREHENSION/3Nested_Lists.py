@@ -17,13 +17,15 @@ print(nested1, nested2)
 """
     @nested loops
 """
-
-for qq in nested:
+# ==========================================================================
+nested3 = [['a', 'b', 'c'], ['d', 'e', 'g'], ['H', 'J', 'I']]
+for qq in nested3:
     for val in qq:
         print(f"{val}")
 
 # NESTED LIST COMPREHENSION
-[[print(val) for val in P] for P in nested]
+[[print(val) for val in P] for P in nested3]
+# =====================================================================================
 
 room = [[num for num in range(1, 4)] for val in range(1, 4)]
 
