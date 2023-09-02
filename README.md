@@ -2,6 +2,8 @@
 
 ![SAMUEL EFFIONG PYTHON IMAGE 2](./image/Samuel%20Effiong%20python%20image2.webp)
 
+## WHAT WE WOULD BE LEARNING OR SEEING IS EVERYTHING YOU NEED TO START PYTON AS A DATA SCIENTIST , DEVELOPER AND SOFTWARE ENGINEER
+
 [0x00_conditionals ANd User iput](./0x00_conditionalsANdUseriput): Writing basic Python that performs basic stuff.
 
 [GAME FOR THE CLASS](./GAME_TIME/v1/) : game v1 let see how it works with conditionals
@@ -23,6 +25,8 @@
 [0x07 Debugging and Error Handling](/0x07_Debugging%20and%20Error%20Handling/) : error handling technic
 
 [0X08 MODULES](/0x08_Modules/) : MOVING FILE AROUNG IN PYTHON
+
+[0X09_MAKING HTTPS REQUEST](./0x09_Making_HTTP_Requests_with_Python/) : performing request to ApI on the web
 
 ## CODE FORMATTER
 
