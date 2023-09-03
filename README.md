@@ -28,6 +28,8 @@
 
 [0X09_MAKING HTTPS REQUEST](./0x09_Making_HTTP_Requests_with_Python/) : performing request to ApI on the web
 
+[0x10_OOP_part1](/0x10_OOP_part1/) : OBJECT ORIENTED PROGRAMMING using class is better
+
 ## CODE FORMATTER
 
 autopep8 2.0.2: A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
