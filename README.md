@@ -30,6 +30,8 @@
 
 [0x10_OOP_part1](/0x10_OOP_part1/) : OBJECT ORIENTED PROGRAMMING using class is better
 
+[Deck_Of_Card_Exercise](./Deck_Of_Card_Exercise/) : practing OBJECT ORIENTED PROGRAMMING with project
+
 ## CODE FORMATTER
 
 autopep8 2.0.2: A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
