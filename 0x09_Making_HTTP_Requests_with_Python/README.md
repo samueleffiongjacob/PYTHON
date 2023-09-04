@@ -57,9 +57,7 @@ Json: javascript starndard object notation
 
 ## Using the requests Module
 
-[SEE PYPI DOC](https://pypi.org/project/requests/)
-
-[SEE PYTHON DOC](https://docs.python-requests.org/en/latest/)
+[SEE PYPI DOC](https://pypi.org/project/requests/)       or     [SEE PYTHON DOC](https://docs.python-requests.org/en/latest/)
 
 ```bash
 # Installing request
