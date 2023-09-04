@@ -32,6 +32,8 @@
 
 [Deck_Of_Card_Exercise](./Deck_Of_Card_Exercise/) : practing OBJECT ORIENTED PROGRAMMING with project
 
+[0x11_OOP_part2](/0x11_oop_part%202/) : this cover Inheritance, Polymorphism,Method Resolution Order (MRO).
+
 ## CODE FORMATTER
 
 autopep8 2.0.2: A tool that automatically formats Python code to conform to the PEP 8 style guide [SEE DOCUMENTATION](https://pypi.org/project/autopep8/)
@@ -94,3 +96,4 @@ Browser Refresh for Sublime Text This plugin adds a keyboard shortcut to Sublime
 ```⌘ + Shift + R (Mac) Ctrl + Shift + R (Windows, Linux)```
 
 ![samuel effiong python image](./image/samuel%20effiong%20python%20image.png)
+ECHO is on.
