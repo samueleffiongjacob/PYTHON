@@ -59,3 +59,5 @@ whenever you create a class, python set a Method Resolution Order, Or MRO, for t
 > (polymorphism) The same operation works for different kinds of Objects
 >> How does the following work in python?
 ![SPECIAL DUNDER](/image/samule%20speacial.png)
+
+[ALL ABOUT OOP IN PYTHON DOC HERE](https://docs.python.org/3/reference/datamodel.html)
